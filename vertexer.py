@@ -29,8 +29,8 @@ class Vertexer:
 		D = np.linalg.solve(A, b)
 ​
 		roots = np.roots([lorentz(C, C),
-						 (lorentz(C, D) - 1) * 2, 
-						  lorentz(D, D)])
+				(lorentz(C, D) - 1) * 2, 
+				 lorentz(D, D)])
 ​
 		solutions = []
 		for root in roots:
